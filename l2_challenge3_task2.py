@@ -28,7 +28,6 @@ def remove_func(people):
 
 while x == 1:
     user_input= input("Would you like to add or remove a person?: ")
-    x=0
     if user_input.lower() == "add":
         people=add_func(people)
         loop_func(people)
@@ -37,5 +36,5 @@ while x == 1:
         loop_func(people)
     else:
         print("Incorrect input please select choose add or remove")
-    x = 1
+
     
